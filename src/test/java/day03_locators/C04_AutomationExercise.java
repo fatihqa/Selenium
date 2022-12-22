@@ -13,7 +13,7 @@ public class C04_AutomationExercise {
     public static void main(String[] args) {
 
         //1- Bir test class’i olusturun ilgili ayarlari yapin
-        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
         WebDriver driver= new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
